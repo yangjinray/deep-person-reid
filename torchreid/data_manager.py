@@ -23,7 +23,7 @@ class BaseDataManager(object):
                  test_batch_size=100,
                  workers=4,
                  train_sampler='',
-                 random_erase=False, # use random erasing for data augmentation
+                 random_erase=False, # use random erasing(随机抹去) for data augmentation
                  color_jitter=False, # randomly change the brightness, contrast and saturation
                  color_aug=False, # randomly alter the intensities of RGB channels
                  num_instances=4, # number of instances per identity (for RandomIdentitySampler)
